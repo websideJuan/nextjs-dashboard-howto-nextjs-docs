@@ -13,13 +13,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   const listItemsForNavbar = [
     {
+      url: "/dashboard",
+      name: "home"
+    },
+    {
       url: "/dashboard/invoices",
       name: "invoices",
     },
     {
       url: "/dashboard/customers",
       name: "customers",
-    },
+    }
   ];
   return (
     <main className="grid grid-cols-12">

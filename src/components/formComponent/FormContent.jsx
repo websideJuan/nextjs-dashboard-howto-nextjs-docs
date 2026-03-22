@@ -13,13 +13,7 @@ export function FormContent({ inputs, typeForm }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    if (typeForm !== 'login') {
-      console.log('create userForm');
-      return
-    }
-  
-    console.log('login userForm');
+    console.log('form');
     
   };
 

@@ -25,13 +25,13 @@ export function NavbarDashboard() {
           {showDropdow && (
             <ul className="absolute right-0 shadow">
               <li className="border-b border-gray-300 py-2 px-6 bg-white">  
-                <a href="#">profile</a>
+                <Link href={'/user/profile'}>profile</Link>
               </li>
               <li className="border-b border-gray-300 py-2 px-6 bg-white">  
-                <a href="#">settings</a>
+                <Link href={'/user/settings'}>settings</Link>
               </li>
               <li className="border-b border-gray-300 py-2 px-6 bg-white">  
-                <a href="#">Logout</a>
+                <Link href={'/Logout'}>Logout</Link>
               </li>
             </ul>
           )}

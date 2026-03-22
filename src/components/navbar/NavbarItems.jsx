@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faUsers,
   faFileLines,
+  faHome
 } from "@fortawesome/free-solid-svg-icons";
 
 export function NavbarItems({ listLink }) {
@@ -12,7 +13,8 @@ export function NavbarItems({ listLink }) {
 
   const listObjectIcons = {
     customers: faUsers,
-    invoices: faFileLines
+    invoices: faFileLines,
+    home: faHome
   };
 
   return listLink.map((link) => (
